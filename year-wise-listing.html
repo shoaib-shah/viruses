@@ -77,46 +77,187 @@
       background-color: orangered;
       border-color: orangered;
       /* text-decoration: none; */
+ }
+  
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .virus-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    .virus-item:last-child {
+      border-bottom: none;
+    }
+    .virus-year {
+      font-weight: bold;
+      color: #2c3e50;
+      flex-basis: 10%;
+    }
+    .virus-name {
+      color: #34495e;
+      font-size: 1.1em;
+      flex-basis: 40%;
+    }
+    .virus-definition {
+      color: #555;
+      flex-basis: 40%;
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+    .virus-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-basis: 10%;
+    }
+  
+
+    
+.nav-link {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-style: italic;
+          font-weight: bolder;
+          font-size: large;
+    
+        }
+
+        .navbar-brand {
+          padding-left: 50px;
+          padding-right: 30px;
+          /* background: #000; */
+        }
+    
+        .navbar {
+          background: whitesmoke;
+        }
+    
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        .footer-links ul {
+            margin-bottom: 15px;
+        }
+    
+        .footer-social ul {
+            margin-bottom: 15px;
+        }
+    }
+    @media (max-width: 768px) {
+        .sss {
+            flex-direction: column;
+            text-align: center;
+        }
+        .ss{
+          flex-direction: column;
+            text-align: center;
+        }
+      }
+    
+
+      .btn {
+      color: white;
+      background-color: orangered;
+      border-color: orangered;
+      /* text-decoration: none; */
     }
 
 
 
 
+           /* Footer styling */
+.footer {
+    padding: 40px 0;
+    background-color: #0d1117;
+    color: white;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background-color: #fff;
-        }
-        th, td {
-            padding: 12px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-        td img {
-            max-width: 100px;
-            height: auto;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer li {
+    display: inline-block; /* Change to inline-block for horizontal layout */
+    padding: 0 10px;
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+.footer .footer-break{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:white
+    }
     </style>
 </head>
 <body>
-
-
-
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand " href="#"><img src="ok image/virusess-removebg-preview.png" height="50px" width="65px"
@@ -138,11 +279,11 @@
               </li>
               <li class="nav-item">
               </li>
-              <a class="nav-link ps-5" href="#">Year wise listing</a>
+              <a class="nav-link ps-5" href="year-wise-listing.html">Year wise listing</a>
               </li>
               <li class="nav-item">
               </li>
-              <a class="nav-link ps-5" href="contact.html" >Contact-us</a>
+              <a class="nav-link ps-5" href="contact.html"  >Contact-us</a>
               </li>
               <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -165,190 +306,153 @@
             </form>
           </div>
         </div>
-      </nav> 
+      </nav>
 
 
 
+  <div class="container">
+    <h1>Year-Wise Virus Listing</h1>
+    <div class="virus-item">
+      <div class="virus-year">1933</div>
+      <div class="virus-name"><a href="influenza.html">Influenza Virus</a></div>
+      <div class="virus-definition">Influenza is a highly contagious viral infection of the respiratory tract that causes fever, cough, sore throat, body aches, and fatigue. It can cause seasonal epidemics.</div>
+      <img class="virus-img" src="ok image/infolinza.jpg" alt="Influenza Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">2019</div>
+      <div class="virus-name"><a href="">Coronavirus (COVID-19)</a></div>
+      <div class="virus-definition">COVID-19 is caused by the SARS-CoV-2 virus, a highly contagious respiratory illness that emerged in 2019. Symptoms range from mild respiratory distress to severe pneumonia.</div>
+      <img class="virus-img" src="ok image/coronavirus-2.tmb-1024v.jpg" alt="COVID-19 Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1950s</div>
+      <div class="virus-name"><a href="">Enteroviruses</a></div>
+      <div class="virus-definition">Enteroviruses primarily infect the gastrointestinal tract and can cause diseases like hand, foot, and mouth disease, and in severe cases, meningitis or polio.</div>
+      <img class="virus-img" src="ok image/enterovirus.webp" alt="Enterovirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1960s</div>
+      <div class="virus-name"><a href="">Human Herpesviruses</a></div>
+      <div class="virus-definition">This family includes viruses causing diseases such as cold sores (HSV-1), genital herpes (HSV-2), chickenpox (VZV), and mononucleosis (EBV).</div>
+      <img class="virus-img" src="ok image/herpes-simplex-virus.webp" alt="Herpesvirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1956</div>
+      <div class="virus-name"><a href="">Human Papillomaviruses (HPV)</a></div>
+      <div class="virus-definition">HPV causes warts, and certain types are linked to cancers such as cervical cancer. Vaccines are available to prevent infection by high-risk strains.</div>
+      <img class="virus-img" src="ok image/oral-human-papillomavirus.webp" alt="HPV Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1940s</div>
+      <div class="virus-name"><a href="">Flaviviruses (e.g., Dengue, Zika)</a></div>
+      <div class="virus-definition">Flaviviruses are transmitted by mosquitoes and cause diseases such as dengue fever, Zika, yellow fever, and West Nile virus.</div>
+      <img class="virus-img" src="ok image/Flaviviruses.webp" alt="Flavivirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1796-1958</div>
+      <div class="virus-name"><a href="">Orthopoxviruses (Smallpox, Monkeypox)</a></div>
+      <div class="virus-definition">Orthopoxviruses include smallpox and monkeypox, causing skin lesions. Smallpox was eradicated through vaccination.</div>
+      <img class="virus-img" src="ok image/Orthopoxviruses..webp" alt="Orthopoxvirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1970s</div>
+      <div class="virus-name"><a href="">Hepatitis Viruses</a></div>
+      <div class="virus-definition">Hepatitis viruses cause liver inflammation. Types A, B, C, D, and E are differentiated based on their transmission routes and severity.</div>
+      <img class="virus-img" src="ok image/Hepatitis viruses..jpg" alt="Hepatitis Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1950s</div>
+      <div class="virus-name"><a href="">Chickenpox (Varicella Zoster)</a></div>
+      <div class="virus-definition">Varicella-zoster virus causes chickenpox, a highly contagious disease characterized by a blister-like rash, fever, and tiredness.</div>
+      <img class="virus-img" src="ok image/Chickenpox.jpg" alt="Chickenpox Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1950s</div>
+      <div class="virus-name"><a href="">Common Cold (Rhinovirus)</a></div>
+      <div class="virus-definition">Rhinoviruses cause the common cold, leading to symptoms such as a runny nose, sore throat, and cough.</div>
+      <img class="virus-img" src="ok image/common cold.jpg" alt="Rhinovirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1934</div>
+      <div class="virus-name"><a href="">Mumps Virus</a></div>
+      <div class="virus-definition">Mumps is a viral infection that affects the salivary glands, causing swelling and discomfort. It can lead to complications like meningitis.</div>
+      <img class="virus-img" src="ok image/pumps.webp" alt="Mumps Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1964</div>
+      <div class="virus-name"><a href="">Epstein-Barr Virus (EBV)</a></div>
+      <div class="virus-definition">EBV is associated with infectious mononucleosis and is linked to certain cancers like Burkitt lymphoma.</div>
+      <img class="virus-img" src="ok image/Epstein-Barr Virus.jpg" alt="Epstein-Barr Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">2003</div>
+      <div class="virus-name"><a href="">Mimivirus</a></div>
+      <div class="virus-definition">Mimivirus is a giant virus, one of the largest known, infecting amoebas, with a very large genome compared to typical viruses.</div>
+      <img class="virus-img" src="ok image/Mimivirus.png" alt="Mimivirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1967</div>
+      <div class="virus-name"><a href="">Marburg Virus</a></div>
+      <div class="virus-definition">Marburg virus causes hemorrhagic fever, similar to Ebola, with a high mortality rate and transmission through bodily fluids.</div>
+      <img class="virus-img" src="ok image/Marburg Virus.jpg" alt="Marburg Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1915</div>
+      <div class="virus-name"><a href="">Caudoviricetes (Bacteriophages)</a></div>
+      <div class="virus-definition">Bacteriophages are viruses that infect bacteria. They are not harmful to humans but play a role in controlling bacterial populations.</div>
+      <img class="virus-img" src="ok image/Caliciviridae.jpg" alt="Bacteriophage">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1976</div>
+      <div class="virus-name"><a href="">Ebola Virus</a></div>
+      <div class="virus-definition">Ebola causes severe hemorrhagic fever, transmitted through direct contact with infected bodily fluids, often with high mortality.</div>
+      <img class="virus-img" src="ok image/ebola.webp" alt="Ebola Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1909</div>
+      <div class="virus-name"><a href="">Orthobornavirus (Borna Disease Virus)</a></div>
+      <div class="virus-definition">Borna disease virus causes neurological diseases in animals, particularly horses and birds, and may have implications for human health.</div>
+      <img class="virus-img" src="ok image/Orthobornavirus.jpeg" alt="Borna Virus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1967-1976</div>
+      <div class="virus-name"><a href="">Filoviridae (Ebola, Marburg)</a></div>
+      <div class="virus-definition">Filoviruses, such as Ebola and Marburg, cause hemorrhagic fevers with high fatality rates, transmitted through direct contact with bodily fluids.</div>
+      <img class="virus-img" src="ok image/Filoviridae.jpg" alt="Filovirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1970s</div>
+      <div class="virus-name"><a href="">Caliciviridae (Norovirus)</a></div>
+      <div class="virus-definition">Caliciviruses, including Norovirus, are responsible for outbreaks of gastroenteritis, leading to symptoms like vomiting, diarrhea, and stomach cramps.</div>
+      <img class="virus-img" src="ok image/Caliciviridae.jpg" alt="Norovirus">
+    </div>
+    <div class="virus-item">
+      <div class="virus-year">1930s</div>
+      <div class="virus-name"><a href="">Orthomyxoviridae (Influenza)</a></div>
+      <div class="virus-definition">Orthomyxoviruses include influenza, a viral infection causing fever, cough, body aches, and fatigue. It mutates rapidly and causes seasonal epidemics.</div>
+      <img class="virus-img" src="ok image/Orthomyxoviridae.jpg" alt="Influenza Virus">
+    </div>
+  </div>
 
-
-
-<h1>Year-wise Virus Listing</h1>
-
-<table>
-    <thead>
-        <tr>
-            <th>Year</th>
-            <th>Virus Name</th>
-            <th>Description</th>
-            <th>Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1930</td>
-            <td>Yellow Fever Virus</td>
-            <td>A viral disease transmitted by mosquitoes, causing fever and jaundice.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Yellow Fever"></td>
-        </tr>
-        <tr>
-            <td>1956</td>
-            <td>Poliovirus</td>
-            <td>Causes poliomyelitis, leading to paralysis in severe cases.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Poliovirus"></td>
-        </tr>
-        <tr>
-            <td>1967</td>
-            <td>Marburg Virus</td>
-            <td>A rare but deadly virus that causes hemorrhagic fever.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Marburg Virus"></td>
-        </tr>
-        <tr>
-            <td>1976</td>
-            <td>Ebola Virus</td>
-            <td>A highly contagious virus causing severe hemorrhagic fever with high mortality.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Ebola Virus"></td>
-        </tr>
-        <tr>
-            <td>1983</td>
-            <td>HIV (Human Immunodeficiency Virus)</td>
-            <td>Causes AIDS, weakening the immune system over time.</td>
-            <td><img src="https://via.placeholder.com/100" alt="HIV Virus"></td>
-        </tr>
-        <tr>
-            <td>1989</td>
-            <td>Hantavirus</td>
-            <td>A virus spread by rodents, causing severe respiratory issues in humans.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Hantavirus"></td>
-        </tr>
-        <tr>
-            <td>2000</td>
-            <td>West Nile Virus</td>
-            <td>Primarily transmitted by mosquitoes, leading to neurological diseases.</td>
-            <td><img src="https://via.placeholder.com/100" alt="West Nile Virus"></td>
-        </tr>
-        <tr>
-            <td>2002</td>
-            <td>SARS-CoV</td>
-            <td>Causative agent of Severe Acute Respiratory Syndrome, transmitted via respiratory droplets.</td>
-            <td><img src="https://via.placeholder.com/100" alt="SARS Virus"></td>
-        </tr>
-        <tr>
-            <td>2009</td>
-            <td>H1N1 Influenza (Swine Flu)</td>
-            <td>A type of influenza virus that caused a global pandemic.</td>
-            <td><img src="https://via.placeholder.com/100" alt="H1N1 Influenza"></td>
-        </tr>
-        <tr>
-            <td>2012</td>
-            <td>MERS-CoV</td>
-            <td>Causative agent of Middle East Respiratory Syndrome, related to SARS-CoV.</td>
-            <td><img src="https://via.placeholder.com/100" alt="MERS Virus"></td>
-        </tr>
-        <tr>
-            <td>2013</td>
-            <td>Chikungunya Virus</td>
-            <td>A mosquito-borne virus causing fever and joint pain.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Chikungunya Virus"></td>
-        </tr>
-        <tr>
-            <td>2019</td>
-            <td>SARS-CoV-2 (COVID-19)</td>
-            <td>Causes COVID-19, a respiratory illness leading to a global pandemic.</td>
-            <td><img src="https://via.placeholder.com/100" alt="COVID-19 Virus"></td>
-        </tr>
-        <tr>
-            <td>2005</td>
-            <td>Avian Influenza Virus</td>
-            <td>A virus affecting birds, with the potential to mutate and affect humans.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Avian Influenza"></td>
-        </tr>
-        <tr>
-            <td>1923</td>
-            <td>Rabies Virus</td>
-            <td>A fatal viral infection affecting the brain, usually transmitted by animal bites.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Rabies Virus"></td>
-        </tr>
-        <tr>
-            <td>1947</td>
-            <td>Dengue Virus</td>
-            <td>A mosquito-borne virus causing high fever, rash, and severe muscle and joint pain.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Dengue Virus"></td>
-        </tr>
-        <tr>
-            <td>1959</td>
-            <td>Rotavirus</td>
-            <td>Common cause of severe diarrhea in infants and young children.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Rotavirus"></td>
-        </tr>
-        <tr>
-            <td>1964</td>
-            <td>Herpes Simplex Virus</td>
-            <td>A virus causing oral and genital herpes.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Herpes Simplex Virus"></td>
-        </tr>
-        <tr>
-            <td>2004</td>
-            <td>Monkeypox Virus</td>
-            <td>A rare viral disease similar to smallpox, often transmitted from animals.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Monkeypox Virus"></td>
-        </tr>
-        <tr>
-            <td>2007</td>
-            <td>Human Metapneumovirus</td>
-            <td>Causes respiratory infections in infants, the elderly, and immunocompromised individuals.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Human Metapneumovirus"></td>
-        </tr>
-        <tr>
-            <td>2018</td>
-            <td>Zika Virus</td>
-            <td>Primarily transmitted by mosquitoes, associated with birth defects when pregnant women are infected.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Zika Virus"></td>
-        </tr>
-        <tr>
-            <td>2015</td>
-            <td>Enterovirus D68</td>
-            <td>Causes respiratory illness, especially in children, leading to wheezing and difficulty breathing.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Enterovirus D68"></td>
-        </tr>
-        <tr>
-            <td>1973</td>
-            <td>Hepatitis B Virus</td>
-            <td>Causes chronic liver disease and can lead to liver cancer.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Hepatitis B Virus"></td>
-        </tr>
-        <tr>
-            <td>1986</td>
-            <td>HIV-2</td>
-            <td>A less common form of HIV, primarily found in West Africa.</td>
-            <td><img src="https://via.placeholder.com/100" alt="HIV-2 Virus"></td>
-        </tr>
-        <tr>
-            <td>1953</td>
-            <td>Adenovirus</td>
-            <td>Causes respiratory infections, conjunctivitis, and gastrointestinal illness.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Adenovirus"></td>
-        </tr>
-        <tr>
-            <td>1972</td>
-            <td>Norovirus</td>
-            <td>Causes acute gastroenteritis, leading to stomach cramps and vomiting.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Norovirus"></td>
-        </tr>
-        <tr>
-            <td>1965</td>
-            <td>Herpes Zoster (Shingles)</td>
-            <td>Causes a painful rash, typically appearing after a previous chickenpox infection.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Herpes Zoster"></td>
-        </tr>
-        <tr>
-            <td>1969</td>
-            <td>Lassa Virus</td>
-            <td>A hemorrhagic fever virus transmitted by rodents, mainly in West Africa.</td>
-            <td><img src="https://via.placeholder.com/100" alt="Lassa Virus"></td>
-        </tr>
-        <!-- Add other viruses here with their respective images -->
-    </tbody>
-</table>
-
+    
+  <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+    <div class="social" role="navigation" aria-labelledby="social-heading">
+        <h3 id="social-heading" class="sr-only">Follow us on social media</h3>
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <hr class="footer-break">
+    <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+        <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+        <li><a href="about-us.html">about us</a></li>
+        <li><a href="#">Playground</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Contents</a></li>
+    </ul>
+    <p class="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
+</footer>
 </body>
 </html>
