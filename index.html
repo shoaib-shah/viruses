@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>viruses</title>
     <link rel="icon" href="icon_path" type="image/icon type">
-  <link rel="icon" href="ok image/virus.png" type="image/x-icon" />
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-      //   // Initialization for ES Users
-        // import { Ripple, initMDB } from "mdb-ui-kit";
-
-      // initMDB({ Ripple });
+    <link rel="icon" href="ok image/virus.png" type="image/x-icon" />
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+   
+      </script>
+       
+      <link rel="stylesheet" href="about-us.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
     </script>
       <style>
 
@@ -101,81 +104,73 @@
 
 
 
-/* Footer styling */
-footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
+          /* Footer styling */
+.footer {
+    padding: 40px 0;
+    background-color: #0d1117;
+    color: white;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
     text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+.footer li {
+    display: inline-block; /* Change to inline-block for horizontal layout */
+    padding: 0 10px;
 }
 
-.footer-links ul {
-    list-style: none;
-}
-
-.footer-links ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.footer-links ul li a {
+.footer ul a {
+    color: inherit;
     text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    transition: color 0.3s ease;
+    opacity: 0.8;
 }
 
-.footer-links ul li a:hover {
-    color: #66ccff;
+.footer ul a:hover {
+    opacity: 1;
 }
 
-/* Social Media Icons */
-.footer-social ul {
-    list-style: none;
-    display: flex;
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
 }
 
-.footer-social ul li {
-    margin-right: 15px;
+.footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
 }
 
-.footer-social ul li a img {
-    width: 24px;
-    height: 24px;
-    transition: opacity 0.3s ease;
+.footer .social > a:hover {
+    opacity: 0.9;
 }
 
-.footer-social ul li a:hover img {
-    opacity: 0.7;
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
 }
-
-/* Disclaimer Section */
-.footer-disclaimer {
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-/* Footer bottom section */
-.footer-bottom {
-    margin-top: 20px;
-    font-size: 12px;
-    color: #888;
-}
-
-.footer-bottom p {
-    margin: 0;
-}
+.footer .footer-break{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:white
+    }
     
       </style>
 </head>
@@ -330,8 +325,8 @@ footer {
                        <p class="card-text"> HPV infection is a viral infection that commonly causes skin or mucous membrane growths (warts). There are more than 100 varieties of human papillomavirus (HPV). Some types of human .....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Human papillomaviruses.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div></div>
                   <div class="col-md-4"> <div class="card">
                      <img src="ok image/Flaviviruses.webp" height="315px" class="card-img-top" alt="...">
@@ -340,8 +335,8 @@ footer {
                        <p class="card-text">Flaviviridae is a family of enveloped positive-strand RNA viruses which mainly infect mammals and birds.[1] They are primarily spread through arthropod vectors (mainly ticks and mosquitoes).....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Flaviviruses.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div>
                  </div></div></div><br><br>
            
@@ -358,8 +353,8 @@ footer {
                        <p class="card-text">Orthopoxvirus is a genus of viruses that cause a raised, bumpy rash. They infect humans and animals. Mpox and smallpox are examples of orthopoxviruses that spread from person to person. Vaccines and ....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Orthopoxviruses.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div></div>
                   <div class="col-md-4"> <div class="card">
                      <img src="ok image/Hepatitis viruses..jpg"height="315px" class="card-img-top" alt="...">
@@ -368,8 +363,8 @@ footer {
                        <p class="card-text">Hepatitis is an inflammation of the liver that is caused by a variety of infectious viruses and noninfectious agents leading to a range of health problems, some of which can be fatal. There are five main...</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Hepatitis viruses.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div></div>
                    <div class="col-md-4"><div class="card">
                      <img src="ok image/Chickenpox.jpg"height="315px" class="card-img-top" alt="...">
@@ -378,8 +373,8 @@ footer {
                        <p class="card-text">Chickenpox, also called varicella-zoster, produces a red rash that blisters, then scabs over. It’s very contagious and spreads through bodily fluids and bodily contact. You can prevent chickenpox with a vaccine....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button> </small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Chickenpox.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div>
                  </div> </div> </div><br><br>
            
@@ -393,8 +388,8 @@ footer {
                        <p class="card-text">The common cold is an illness affecting your nose and throat. Most often, it's harmless, but it might not feel that way. Germs called viruses cause a common cold. Often, adults may have two or three colds each year.....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Common cold.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div></div>
                    <div class="col-md-4"> <div class="card">
                      <img src="ok image/herpes-virus.jpg"height="315px" class="card-img-top" alt="...">
@@ -403,8 +398,8 @@ footer {
                        <p class="card-text"> Herpes simplex virus (HSV), known as herpes, is a common infection that can cause painful blisters or ulcers. It primarily spreads by skin-to-skin contact. It is treatable but not curable....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="herpes-virus.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div></div>
                    <div class="col-md-4"> <div class="card">
                      <img src="ok image/pumps.webp"height="315px" class="card-img-top" alt="...">
@@ -413,8 +408,8 @@ footer {
                        <p class="card-text">Mumps is a contagious viral infection that can be serious. Common symptoms include painful swelling of the jaw, fever, tiredness, appetite loss, and headache. Get vaccinated for mumps with the MMR vaccine....</p>
                      </div>
                      <div class="card-footer">
-                       <small class="text-body-secondary"><button type="button" class="btn btn-outline-danger">read more</button></small>
-                     </div>
+                      <a  class="btn btn-outline-danger" href="Mumps.html" style="text-decoration: none;" >read more</a>
+                      </div>
                    </div>
                  </div></div></div><br><br>
 
@@ -442,40 +437,23 @@ footer {
           </div><br><br>
 
 
-
-          <footer>
-            <div class="footer-container">
-                <div class="footer-links">
-                  <div>
-                    <a class="navbar-brand " href="#"><img src="ok image/virusess-removebg-preview.png" height="80px" width="85px"
-                      alt=""></a>
-                  </div>
-                    <ul>
-                        <li><a href="about-us.html" style="font-size: 20px;" >  About Us</a></li><br>
-                        <li><a href="#"style="font-size: 20px;">Privacy Policy</a></li><br>
-                        <li><a href="#"style="font-size: 20px;">Terms of Service</a></li><br>
-                        <li><a href="contact.html"style="font-size: 20px;">Contact</a></li><br>
-                        <li><a href="#"style="font-size: 20px;">Sitemap</a></li><br>
-                    </ul>
-                </div>
-        
-                <div class="footer-social">
-                    <p>Follow Us:</p>
-                    <ul>
-                        <li><a href="#"><img src="ok image/facebook.webp"  alt="Facebook"></a></li>
-                        <li><a href="#"><img src="ok image/TWITTER.jpg" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="ok image/LinkedIn.webp" alt="LinkedIn"></a></li>
-                        <li><a href="#"><img src="ok image/INSTAGRAM.jpg" alt="Instagram"></a></li>
-                    </ul>
-                </div>
-        
-                <div class="footer-disclaimer">
-                    <p><strong>Disclaimer:</strong> The content on this website is for educational purposes only. Always ensure your systems are secure and consult professionals if you encounter issues related to viruses.</p>
-                </div>
+          <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+            <div class="social" role="navigation" aria-labelledby="social-heading">
+                <h3 id="social-heading" class="sr-only">Follow us on social media</h3>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             </div>
-        
-            <div class="footer-bottom">
-                <p>&copy; 2024 VirusX. All rights reserved.</p>
-            </div>
+            <hr class="footer-break">
+            <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+                <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+                <li><a href="about-us.html">about us</a></li>
+                <li><a href="#">Playground</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Contents</a></li>
+            </ul>
+            <p class="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
         </footer>
         

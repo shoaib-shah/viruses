@@ -62,6 +62,75 @@
             margin: 20px 0;
             border-radius: 8px;
         }
+
+        
+           /* Footer styling */
+.footer {
+    padding: 40px 0;
+    background-color: #0d1117;
+    color: white;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer li {
+    display: inline-block; /* Change to inline-block for horizontal layout */
+    padding: 0 10px;
+}
+
+.footer ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+.footer .footer-break{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:white
+    }
     </style>
 </head>
 <body>
@@ -151,6 +220,34 @@
             <p>Enteroviruses are a significant public health concern, and global health organizations are constantly monitoring outbreaks and new strains. Research continues to focus on understanding these viruses better, especially regarding their potential to cause severe health problems in vulnerable populations.</p>
         </section>
     </div>
+
+
+    <footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+        <div class="social" role="navigation" aria-labelledby="social-heading">
+            <h3 id="social-heading" class="sr-only">Follow us on social media</h3>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <hr class="footer-break">
+        <ul class="footer-links" role="navigation" aria-labelledby="footer-links-heading">
+            <h3 id="footer-links-heading" class="sr-only">Footer Links</h3>
+            <li><a href="about-us.html">about us</a></li>
+            <li><a href="#">Playground</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Contents</a></li>
+        </ul>
+        <p class="copyright">© 2024 SDavidPrince. Demo of a footer. Some Rights Reserved</p>
+    </footer>
+
+
+
+
+
+
+
 
   
 
