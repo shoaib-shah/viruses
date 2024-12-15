@@ -7,64 +7,16 @@
     <title>About Us</title>
     <link rel="icon" href="icon_path" type="image/icon type">
     <link rel="icon" href="ok image/virus.png" type="image/x-icon" />
-  
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-   
-      </script>
-       
-      <link rel="stylesheet" href="about-us.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
 
-
     
-    /* Responsive design for smaller screens */
-    @media (max-width: 768px) {
-    
-    }
-    @media (max-width: 768px) {
-        .sss {
-            flex-direction: column;
-            text-align: center;
-        }
-        .ss{
-          flex-direction: column;
-            text-align: center;
-        }
-      }
-    body{
-    
-      background-color: rgb(207, 183, 183);}
 
-      .btn {
-      color: white;
-      background-color: orangered;
-      border-color: orangered;
-      /* text-decoration: none; */
-    }
-
-        /* General Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            line-height: 1.6;
-            scroll-behavior: smooth; /* Enables smooth scrolling */
-        }
-
-        h1, h2, h3 {
-            font-family: 'Georgia', serif;
-            color: #616060;
-        }
-
+       
         /* Header */
         header {
             background: linear-gradient(to right, #1a1a1a, #333);
@@ -103,6 +55,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
+        
 
         /* About Us Section */
         .about-text {
@@ -156,73 +109,6 @@
             margin-bottom: 15px;
         }
 
-      /* Footer styling */
-.footer {
-    padding: 40px 0;
-    background-color: #0d1117;
-    color: white;
-}
-
-.footer ul {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-
-.footer li {
-    display: inline-block; /* Change to inline-block for horizontal layout */
-    padding: 0 10px;
-}
-
-.footer ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-.footer ul a:hover {
-    opacity: 1;
-}
-
-.footer .social {
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-.footer .social > a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin: 0 8px;
-    color: inherit;
-    opacity: 0.75;
-}
-
-.footer .social > a:hover {
-    opacity: 0.9;
-}
-
-.footer .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 13px;
-    color: #aaa;
-    margin-bottom: 0;
-}
-.footer .footer-break{
-  height:2px;
-  border-width:0;
-  color:gray;
-  background-color:white
-    }
     </style>
 </head>
 <body>
@@ -272,7 +158,7 @@
     </header>
 
     <!-- About Us Section -->
-    <section id="who-we-are">
+    <section class="who-we-are">
         <h2>Who We Are</h2>
         <p class="about-text">We are a group of Shoaib, Zain, and Shahrukh Ghori. For our E-project, we have come together to explore the world of human viruses. Our project aims to raise awareness about the impact of viruses on human health, how they spread, and the importance of prevention and treatment. With a strong interest in science and health, we have researched various viruses, including their symptoms, transmission methods, and global impact. Through this project, we hope to contribute to a better understanding of viruses and their role in public health, especially in light of recent global events.
 <br>
@@ -307,85 +193,95 @@
     </section>
 
 
+    <footer class="text-center bg-body-tertiary">
+      <!-- Grid container -->
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <div class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-facebook"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn btn-link btn-floating btn-lg text-body m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fa fa-github"></i
+          ></a>
+            </div> 
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2020 Copyright:
+        <a class="text-body" href="index.html">Viruses</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    
+  
+  
+  <script>
+      // Initialization for ES Users
+  import { Ripple, initMDB } from "mdb-ui-kit";
+  
+  initMDB({ Ripple });
+  </script>
    
       
     
 
 
-    <footer class="text-center bg-body-tertiary">
-        <!-- Grid container -->
-        <div class="container pt-4">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-facebook"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-linkedin"></i
-            ></a>
-            <!-- Github -->
-            <a
-              data-mdb-ripple-init
-              class="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
-              role="button"
-              data-mdb-ripple-color="dark"
-              ><i class="fa fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2020 Copyright:
-          <a class="text-body" href="index.html">Viruses</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+
 </body>
 </html>
