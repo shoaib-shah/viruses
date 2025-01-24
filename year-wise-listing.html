@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Year-wise Virus Listing</title>
+    <title>Year-wise-listing</title>
+    
 
     <meta name="keywords" content="norovirus, hepatitis c, monkeypox, chickenpox, hepatitis b, bird flu	, measles disease	, hepb, viruses, rhinovirus, dengue fever, epstein barr virus, mononucleosis, flu a, h5n1 bird flu,bird flu virus, dengue disease, avian influenza virus, avian flu virus, hepatitis a, west nile virus, hepatitis a virus,west nile fever,wnv,hav virus" />
-    <meta name="description" content="Viruses have caused major damage to mankind. In recent times there are various Viruses which have attacked humans. The information about these viruses is scattered." /><link rel="canonical" href="https://virusesofficial.netlify.app/" />
-    <meta name="robots" content="ALL, FOLLOW,INDEX" />
-    <meta name="author" content="virusesofficial.netlify.app" />
+<meta name="description" content="Viruses have caused major damage to mankind. In recent times there are various Viruses which have attacked humans. The information about these viruses is scattered." /><link rel="canonical" href="https://virusesofficial.netlify.app/" />
+<meta name="robots" content="ALL, FOLLOW,INDEX" />
+<meta name="author" content="virusesofficial.netlify.app" />
 
     <link rel="icon" href="icon_path" type="image/icon type">
     <link rel="icon" href="ok image/virus.png" type="image/x-icon" />
@@ -17,120 +18,119 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <Style>
+    <style>
+      .virus-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.virus-item:last-child {
+  border-bottom: none;
+}
+.virus-year {
+  font-weight: bold;
+  color: #2c3e50;
+  flex-basis: 10%;
+}
+.virus-name {
+  color: #34495e;
+  font-size: 1.1em;
+  /* flex-basis: 40%; */
+}
+.virus-definition {
+  color: #555;
+  flex-basis: 40%;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+.virus-img {
+  width: 60px;
+  height: 70px;
+  border-radius:20%;
+  /* object-fit: cover; */
+  flex-basis: 10%;
+}
 
-    .virus-item {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 15px;
-      border-bottom: 1px solid #ddd;
-    }
-    .virus-item:last-child {
-      border-bottom: none;
-    }
-    .virus-year {
-      font-weight: bold;
-      color: #2c3e50;
-      flex-basis: 10%;
-    }
-    .virus-name {
-      color: #34495e;
-      font-size: 1.1em;
-      /* flex-basis: 40%; */
-    }
-    .virus-definition {
-      color: #555;
-      flex-basis: 40%;
-      font-size: 0.9em;
-      margin-top: 5px;
-    }
-    .virus-img {
-      width: 60px;
-      height: 70px;
-      border-radius:20%;
-      /* object-fit: cover; */
-      flex-basis: 10%;
-    }
-  
-      
-    
- /* Team Member Section */
- .container {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 40px;
-        }
 
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            /* width: 280px; */
-            margin-bottom: 30px;
-            transition: all 0.3s ease;
-        }
 
-        .container {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-        }
+/* Team Member Section */
+.container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
 
-        .container {
-            height: 150px;
-            border-radius: 7%;
-            border: 5px solid #f5f5f5;
-            margin-bottom: 20px;
-        }
+    .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        /* width: 280px; */
+        margin-bottom: 30px;
+        transition: all 0.3s ease;
+    }
 
-        /* .container {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        } */
+    .container {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
 
-        .container {
-            font-size: 1rem;
-            color: #777;
-            margin-bottom: 15px;
-        }
-        .cc{
-          text-align: center;
-        }
+    .container {
+        height: 150px;
+        border-radius: 7%;
+        border: 5px solid #f5f5f5;
+        margin-bottom: 20px;
+    }
+
+    /* .container {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    } */
+
+    .container {
+        font-size: 1rem;
+        color: #777;
+        margin-bottom: 15px;
+    }
+    .cc{
+      text-align: center;
+    }
     </style>
+
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg shadow rounded" style="background-color: #EFEFEF;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="ok image/virus.png" height="60px" width="60px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-secondary fw-bold fs-6" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="about-us.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="types.of .virus.html">Types of Viruses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="year-wise-listing.html">Year Wise Listing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    
+    <nav class="navbar navbar-expand-lg shadow rounded" style="background-color: #EFEFEF;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="ok image/virus.png" height="60px" width="60px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-secondary fw-bold fs-6" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="types.of .virus.html">Types of Viruses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="year-wise-listing.html">Year Wise Listing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-5 text-secondary fw-bold fs-6" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
  <a href=""><h1 class="cc">Year-Wise Virus Listing</h1></a>
@@ -226,7 +226,7 @@
     <div class="container">
     <a href="">
     <div class="virus-item">
-      <img class="virus-img" src="ok image/herpes-simplex-virus.webp" alt="Herpesvirus">
+      <img class="virus-img" src="ok image/herpes-simplex-virus.jpg" alt="Human Herpesviruses">
       <div class="virus-year">1960s</div>
       <div class="virus-name">Human Herpesviruses</div>
       <div class="virus-definition">This family includes viruses causing diseases such as cold sores (HSV-1), genital herpes (HSV-2), chickenpox (VZV), and mononucleosis (EBV).</div>
@@ -375,14 +375,20 @@
     <!-- Copyright -->
   </footer>
   
-
-
-<script>
-    // Initialization for ES Users
-import { Ripple, initMDB } from "mdb-ui-kit";
-
-initMDB({ Ripple });
-</script>
  
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
